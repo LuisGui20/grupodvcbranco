@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.skew{
+    width: 400px;
+    height: 100px;
+    background-color: aquamarine;
+    border: 1px solid grey;
+    margin: 200px auto;
+    -ms-transform: skewX(20deg);
+    transform: skewY(0deg)rotate(0);
+    transition: 1s;
+}
+
+.skew:hover{
+    transform: skew(90deg) rotate(98deg);
+}
